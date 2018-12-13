@@ -579,10 +579,10 @@ export class NgGrid implements OnInit, DoCheck, OnDestroy {
         switch (this.cascade) {
             case 'up':
             case 'down':
-            default:
                 return 'vertical';
             case 'left':
             case 'right':
+            default:
                 return 'horizontal';
         }
     }
